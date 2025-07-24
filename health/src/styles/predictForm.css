@@ -1,0 +1,50 @@
+
+.predict-container {
+  padding: 32px;
+  max-width: 500px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #cffafe, #bfdbfe);
+}
+
+.predict-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #2a4365;
+  text-align: center;
+}
+
+.predict-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #071f38;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.2s ease;
+}
+
+.predict-input:focus {
+  border-color: #3182ce;
+  outline: none;
+}
+
+.predict-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3182ce;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.predict-button:hover {
+  background-color: #2b6cb0;
+}

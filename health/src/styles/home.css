@@ -1,0 +1,58 @@
+.home-page {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #43b7c2, #4e94ea);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.home-card {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1d4ed8;
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  color: #4b5563;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.home-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.login-btn:hover {
+  background-color: #1e40af;
+}
+
+.signup-btn {
+  background-color: #10b981;
+  color: white;
+}
+
+.signup-btn:hover {
+  background-color: #059669;
+}
