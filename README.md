@@ -40,9 +40,9 @@ This project is a web-based application that predicts whether a patient with chr
 - React.js
 - React Router
 - Custom CSS (converted from Tailwind)
-- Axios for API calls
+- Axios for API calls(Future Scope)
 
-### 🧠 Backend
+### 🧠 Backend(Future Scope)
 - Flask (Python)
 - Trained ML Model (KNN / Random Forest saved as `model.pkl`)
 - Joblib for model loading
@@ -54,7 +54,13 @@ This project is a web-based application that predicts whether a patient with chr
 - GitHub (for version control)
 
 ---
-
+# RUNNING PROJECT
+   frontend
+    cd health
+    npm install
+    npm run dev
+    backend
+     In "cmd" write this-> pip install matplotlib seaborn sckit-learn pandas ... 
 ## 📁 Folder Structure
 
 ```bash
@@ -62,7 +68,7 @@ patient-discharge-app/
 ├── health_predict(backend)/
 │   ├── Hospital.ipynb       # Python dependencies
 │
-├── frontend(frontend)/
+├── health(frontend)/
 │   ├── public/
 │   ├── src/
 │   │   ├── page/        # DoctorDashboard, PatientDashboard, etc.
@@ -77,3 +83,4 @@ patient-discharge-app/
 │
 ├── README.md
 └── .gitignore
+
